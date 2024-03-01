@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1709307835071,1129,Login,200,OK,Workload Config 1-1,text,true,,1270,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1129,0,826
+1709307836201,384,POST Add Contact,201,Created,Workload Config 1-1,text,true,,1069,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,384,0,0
+1709307836585,274,GET Contact List,200,OK,Workload Config 1-1,text,true,,5046,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,274,0,0
+1709307836070,1084,Login,200,OK,Workload Config 1-2,text,true,,1270,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1084,0,784
+1709307837155,380,POST Add Contact,201,Created,Workload Config 1-2,text,true,,1069,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,380,0,0
+1709307837536,270,GET Contact List,200,OK,Workload Config 1-2,text,true,,5352,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,270,0,0
+1709307837069,1149,Login,200,OK,Workload Config 1-3,text,true,,1262,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1149,0,782
+1709307838219,471,POST Add Contact,201,Created,Workload Config 1-3,text,true,,1061,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,471,0,0
+1709307838691,266,GET Contact List,200,OK,Workload Config 1-3,text,true,,5650,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,266,0,0
+1709307838071,1058,Login,200,OK,Workload Config 1-4,text,true,,1266,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1058,0,767
+1709307839129,292,POST Add Contact,201,Created,Workload Config 1-4,text,true,,1065,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,292,0,0
+1709307839421,265,GET Contact List,200,OK,Workload Config 1-4,text,true,,5960,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,265,0,0
+1709307839070,1064,Login,200,OK,Workload Config 1-5,text,true,,1262,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1064,0,769
+1709307840135,273,POST Add Contact,201,Created,Workload Config 1-5,text,true,,1061,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,273,0,0
+1709307840408,263,GET Contact List,200,OK,Workload Config 1-5,text,true,,6262,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,263,0,0
+1709307840068,1072,Login,200,OK,Workload Config 1-6,text,true,,1266,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1072,0,775
+1709307841141,269,POST Add Contact,201,Created,Workload Config 1-6,text,true,,1065,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,269,0,0
+1709307841410,280,GET Contact List,200,OK,Workload Config 1-6,text,true,,6572,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,279,0,0
+1709307841070,1044,Login,200,OK,Workload Config 1-7,text,true,,1262,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1044,0,753
+1709307842115,268,POST Add Contact,201,Created,Workload Config 1-7,text,true,,1061,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,268,0,0
+1709307842383,269,GET Contact List,200,OK,Workload Config 1-7,text,true,,6874,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,269,0,0
+1709307842074,1088,Login,200,OK,Workload Config 1-8,text,true,,1258,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1088,0,771
+1709307843163,300,POST Add Contact,201,Created,Workload Config 1-8,text,true,,1057,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,300,0,0
+1709307843464,285,GET Contact List,200,OK,Workload Config 1-8,text,true,,7176,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,285,0,0
+1709307843069,1086,Login,200,OK,Workload Config 1-9,text,true,,1266,451,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1086,0,770
+1709307844155,296,POST Add Contact,201,Created,Workload Config 1-9,text,true,,1065,687,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,296,0,0
+1709307844451,274,GET Contact List,200,OK,Workload Config 1-9,text,true,,7490,357,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,274,0,0
+1709307844070,2077,Login,200,OK,Workload Config 1-10,text,true,,1258,451,1,1,https://thinking-tester-contact-list.herokuapp.com/users/login,2077,0,1765
+1709307846148,268,POST Add Contact,201,Created,Workload Config 1-10,text,true,,1057,687,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,268,0,0
+1709307846417,283,GET Contact List,200,OK,Workload Config 1-10,text,true,,7788,357,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,283,0,0

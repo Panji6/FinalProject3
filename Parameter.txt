@@ -1,0 +1,5 @@
+Parameter yang Digunakan dalam Performance Test :
+
+1. Workload Config yang menggunakan 1rps (10 user dalam waktu 10 detik), tanpa adanya loop.
+2. Header Manager berisikan content-type dan authorization yang digunakan untuk melakukan permintaan HTTP
+3. Terakhir ada HTTP Request dengan method : 1. POST untuk Login (digunakan untuk mengambil token); 2. POST untuk Add Contact untuk menambah kontak pada web herolookup; 3 GET Contact List untuk mengambil semua list contact yang ada.
