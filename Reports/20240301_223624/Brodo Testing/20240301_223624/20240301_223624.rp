@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240301_223624</name>
+   <tag></tag>
+   <displayName>20240301_223624</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240301_223624/Web Brodo Test Suites/20240301_223625</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240301_223624/Mobile Brodo Test Suites/20240301_223627</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-A515F (Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>RR8N10599HX</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Brodo Testing</testSuiteCollectionId>
+</ReportCollectionEntity>

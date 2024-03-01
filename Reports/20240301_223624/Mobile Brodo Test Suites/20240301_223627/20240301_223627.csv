@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mobile Brodo Test Suites,,,,01-03-2024 22:37:52,01-03-2024 22:40:07,2m - 14.809s,PASSED
+,,,,,,,
+Test Cases/Mobile Testing/TC01_Mobile Testing Brodo App,,,,01-03-2024 22:37:52,01-03-2024 22:40:07,2m - 14.606s,PASSED
+"akp = findTestData(""Data Files/Test Data"")",,,,01-03-2024 22:37:53,01-03-2024 22:37:53,0.663s,PASSED
+"userName = akp.getObjectValue(""Username"", 1)",,,,01-03-2024 22:37:53,01-03-2024 22:37:53,0.034s,PASSED
+"password = akp.getObjectValue(""Password"", 1)",,,,01-03-2024 22:37:53,01-03-2024 22:37:53,0.004s,PASSED
+"startApplication(""C:\Users\Panji\Downloads\Brodo_4.1_apkcombo.com.apk"", true)",,,,01-03-2024 22:37:53,01-03-2024 22:39:37,1m - 43.976s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.ImageButton""), 0)",,,,01-03-2024 22:39:37,01-03-2024 22:39:40,2.523s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.TextView - ACCOUNT""), 0)",,,,01-03-2024 22:39:40,01-03-2024 22:39:41,1.630s,PASSED
+"setText(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.EditText""), userName, 0)",,,,01-03-2024 22:39:41,01-03-2024 22:39:44,2.423s,PASSED
+"setText(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.EditText (1)""), password, 0)",,,,01-03-2024 22:39:44,01-03-2024 22:39:46,2.423s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.TextView - Sign In""), 0)",,,,01-03-2024 22:39:46,01-03-2024 22:39:47,0.394s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.ImageButton""), 0)",,,,01-03-2024 22:39:47,01-03-2024 22:39:51,4.266s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.TextView - COLLECTIONS""), 0)",,,,01-03-2024 22:39:51,01-03-2024 22:39:51,0.461s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.TextView - Sandals""), 0)",,,,01-03-2024 22:39:51,01-03-2024 22:39:53,1.919s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.TextView - CasualSandals""), 0)",,,,01-03-2024 22:39:53,01-03-2024 22:39:55,1.227s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.ImageView""), 0)",,,,01-03-2024 22:39:55,01-03-2024 22:39:57,2.422s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.Button - Add to Bag""), 0)",,,,01-03-2024 22:39:57,01-03-2024 22:39:59,1.760s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.ImageButton (1)""), 0)",,,,01-03-2024 22:39:59,01-03-2024 22:40:01,2.212s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Testing Brodo/android.widget.ImageView (1)""), 0)",,,,01-03-2024 22:40:01,01-03-2024 22:40:02,1.420s,PASSED
+closeApplication(),,,,01-03-2024 22:40:02,01-03-2024 22:40:07,4.362s,PASSED

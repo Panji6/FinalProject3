@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Brodo Testing" time="219.335" tests="2" failures="0" errors="0">
+   <testsuite name="Web Brodo Test Suites" tests="1" failures="0" errors="0" time="64.045" skipped="0" timestamp="01-03-2024T22:36:36" hostname="Panji - host.docker.internal" id="Test Suites/Web Brodo Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Panji\\Documents\\Panjay\\QA\\SESI-12\\FinalProject3\\Reports\\20240301_223624\\Web Brodo Test Suites\\20240301_223625"/>
+         <property name="logFiles" value="C:\\Users\\Panji\\Documents\\Panjay\\QA\\SESI-12\\FinalProject3\\Reports\\20240301_223624\\Web Brodo Test Suites\\20240301_223625\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Panji - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.9"/>
+         <property name="sessionId" value="1936836c9d9ba4a9d7010965e38f97b5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Web Testing/TC01_Web Testing Brodo" time="63.766" classname="Test Cases/Web Testing/TC01_Web Testing Brodo" status="PASSED">
+         <system-out><![CDATA[01-03-2024T22:36:36 - [TEST_CASE][PASSED] - Test Cases/Web Testing/TC01_Web Testing Brodo: Test Cases/Web Testing/TC01_Web Testing Brodo
+
+01-03-2024T22:36:37 - [TEST_STEP][PASSED] - akp = findTestData("Data Files/Test Data"): null
+
+01-03-2024T22:36:37 - [TEST_STEP][PASSED] - userName = akp.getObjectValue("Username", 1): null
+
+01-03-2024T22:36:37 - [TEST_STEP][PASSED] - password = akp.getObjectValue("Password", 1): null
+
+01-03-2024T22:36:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T22:36:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-03-2024T22:36:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T22:36:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T22:36:39 - [TEST_STEP][PASSED] - navigateToUrl("https://bro.do/"): Navigate to 'https://bro.do/' successfully
+
+01-03-2024T22:36:43 - [MESSAGE][PASSED] - Navigate to 'https://bro.do/' successfully
+
+01-03-2024T22:36:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Testing Brodo/Page_BRODO Store  Brodo/svg_BRO LABS_icon icon-user")): Object: 'Object Repository/Web Testing Brodo/Page_BRODO Store  Brodo/svg_BRO LABS_icon icon-user' is clicked on
+
+01-03-2024T22:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Testing Brodo/Page_BRODO Store  Brodo/svg_BRO LABS_icon icon-user' is clicked on
+
+01-03-2024T22:36:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Email_customeremail"), userName): Text 'hahahabibi47@gmail.com' is set on object 'Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Email_customeremail'
+
+01-03-2024T22:36:49 - [MESSAGE][PASSED] - Text 'hahahabibi47@gmail.com' is set on object 'Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Email_customeremail'
+
+01-03-2024T22:36:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Forgot_customerpassword"), password): Text 'habibi3320' is set on object 'Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Forgot_customerpassword'
+
+01-03-2024T22:36:50 - [MESSAGE][PASSED] - Text 'habibi3320' is set on object 'Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Forgot_customerpassword'
+
+01-03-2024T22:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Show_customerLogin")): Object: 'Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Show_customerLogin' is clicked on
+
+01-03-2024T22:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Testing Brodo/Page_Account  Brodo/input_Show_customerLogin' is clicked on
+
+01-03-2024T22:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Testing Brodo/Page_Account  Brodo/a_NON-FOOTWEAR")): Object: 'Object Repository/Web Testing Brodo/Page_Account  Brodo/a_NON-FOOTWEAR' is clicked on
+
+01-03-2024T22:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Testing Brodo/Page_Account  Brodo/a_NON-FOOTWEAR' is clicked on
+
+01-03-2024T22:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Testing Brodo/Page_All Essentials  Brodo/div_Bigger Trucker Hat All Black")): Object: 'Object Repository/Web Testing Brodo/Page_All Essentials  Brodo/div_Bigger Trucker Hat All Black' is clicked on
+
+01-03-2024T22:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Testing Brodo/Page_All Essentials  Brodo/div_Bigger Trucker Hat All Black' is clicked on
+
+01-03-2024T22:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Testing Brodo/Page_Bigger Trucker Hat All Black/span_Add to cart")): Object: 'Object Repository/Web Testing Brodo/Page_Bigger Trucker Hat All Black/span_Add to cart' is clicked on
+
+01-03-2024T22:37:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@id='AddToCartForm-7659508564159-modal']/div/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-03-2024T22:37:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Web Testing Brodo/Page_Bigger Trucker Hat All Black/span_Add to cart'. Try using Self-healing.
+
+01-03-2024T22:37:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Web Testing Brodo/Page_Bigger Trucker Hat All Black/span_Add to cart' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='F'])[1]/following::span[1]'.
+
+01-03-2024T22:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Testing Brodo/Page_Bigger Trucker Hat All Black/span_Add to cart' is clicked on
+
+01-03-2024T22:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Testing Brodo/Page_Bigger Trucker Hat All Black/span_Check out")): Object: 'Object Repository/Web Testing Brodo/Page_Bigger Trucker Hat All Black/span_Check out' is clicked on
+
+01-03-2024T22:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Testing Brodo/Page_Bigger Trucker Hat All Black/span_Check out' is clicked on
+
+01-03-2024T22:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Testing Brodo/Page_Checkout - Brodo/svg_Checkout_a8x1wuo _1fragemk5 _1fragemm9 _def4dd")): Object: 'Object Repository/Web Testing Brodo/Page_Checkout - Brodo/svg_Checkout_a8x1wuo _1fragemk5 _1fragemm9 _def4dd' is clicked on
+
+01-03-2024T22:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Testing Brodo/Page_Checkout - Brodo/svg_Checkout_a8x1wuo _1fragemk5 _1fragemm9 _def4dd' is clicked on
+
+01-03-2024T22:37:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-03-2024T22:37:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-03-2024T22:36:36 - [TEST_SUITE][PASSED] - Web Brodo Test Suites: Test Cases/Web Testing/TC01_Web Testing Brodo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Mobile Brodo Test Suites" tests="1" failures="0" errors="0" time="134.809" skipped="0" timestamp="01-03-2024T22:37:52" hostname="Panji - host.docker.internal" id="Test Suites/Mobile Brodo Test Suites">
+      <properties>
+         <property name="deviceName" value="samsung SM-A515F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Panji\\Documents\\Panjay\\QA\\SESI-12\\FinalProject3\\Reports\\20240301_223624\\Mobile Brodo Test Suites\\20240301_223627"/>
+         <property name="logFiles" value="C:\\Users\\Panji\\Documents\\Panjay\\QA\\SESI-12\\FinalProject3\\Reports\\20240301_223624\\Mobile Brodo Test Suites\\20240301_223627\\appium.log, C:\\Users\\Panji\\Documents\\Panjay\\QA\\SESI-12\\FinalProject3\\Reports\\20240301_223624\\Mobile Brodo Test Suites\\20240301_223627\\appium_error.log, C:\\Users\\Panji\\Documents\\Panjay\\QA\\SESI-12\\FinalProject3\\Reports\\20240301_223624\\Mobile Brodo Test Suites\\20240301_223627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Panji - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.1"/>
+         <property name="deviceModel" value="SM-A515F"/>
+         <property name="hostAddress" value="192.168.100.9"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8N10599HX"/>
+         <property name="deviceName" value="samsung SM-A515F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Mobile Testing/TC01_Mobile Testing Brodo App" time="134.606" classname="Test Cases/Mobile Testing/TC01_Mobile Testing Brodo App" status="PASSED">
+         <system-out><![CDATA[01-03-2024T22:37:52 - [TEST_CASE][PASSED] - Test Cases/Mobile Testing/TC01_Mobile Testing Brodo App: Test Cases/Mobile Testing/TC01_Mobile Testing Brodo App
+
+01-03-2024T22:37:53 - [TEST_STEP][PASSED] - akp = findTestData("Data Files/Test Data"): null
+
+01-03-2024T22:37:53 - [TEST_STEP][PASSED] - userName = akp.getObjectValue("Username", 1): null
+
+01-03-2024T22:37:53 - [TEST_STEP][PASSED] - password = akp.getObjectValue("Password", 1): null
+
+01-03-2024T22:37:53 - [TEST_STEP][PASSED] - startApplication("C:\Users\Panji\Downloads\Brodo_4.1_apkcombo.com.apk", true): Started app at: 'C:\Users\Panji\Downloads\Brodo_4.1_apkcombo.com.apk'
+
+01-03-2024T22:37:54 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+01-03-2024T22:37:59 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+01-03-2024T22:37:59 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Panji\.appium
+
+01-03-2024T22:37:59 - [MESSAGE][INFO] - appium outlog: C:\Users\Panji\Documents\Panjay\QA\SESI-12\FinalProject3\Reports\20240301_223624\Mobile Brodo Test Suites\20240301_223627\appium.log
+
+01-03-2024T22:37:59 - [MESSAGE][INFO] - appium errlog: C:\Users\Panji\Documents\Panjay\QA\SESI-12\FinalProject3\Reports\20240301_223624\Mobile Brodo Test Suites\20240301_223627\appium_error.log
+
+01-03-2024T22:38:03 - [MESSAGE][INFO] - Appium server started on port 63,827
+
+01-03-2024T22:39:37 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Panji\Downloads\Brodo_4.1_apkcombo.com.apk'
+
+01-03-2024T22:39:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageButton'
+
+01-03-2024T22:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageButton'
+
+01-03-2024T22:39:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.TextView - ACCOUNT"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - ACCOUNT'
+
+01-03-2024T22:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - ACCOUNT'
+
+01-03-2024T22:39:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.EditText"), userName, 0): Text 'hahahabibi47@gmail.com' has been set to element 'Object Repository/Mobile Testing Brodo/android.widget.EditText'
+
+01-03-2024T22:39:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:44 - [MESSAGE][PASSED] - Text 'hahahabibi47@gmail.com' has been set to element 'Object Repository/Mobile Testing Brodo/android.widget.EditText'
+
+01-03-2024T22:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.EditText (1)"), password, 0): Text 'habibi3320' has been set to element 'Object Repository/Mobile Testing Brodo/android.widget.EditText (1)'
+
+01-03-2024T22:39:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:46 - [MESSAGE][PASSED] - Text 'habibi3320' has been set to element 'Object Repository/Mobile Testing Brodo/android.widget.EditText (1)'
+
+01-03-2024T22:39:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.TextView - Sign In"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - Sign In'
+
+01-03-2024T22:39:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - Sign In'
+
+01-03-2024T22:39:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageButton'
+
+01-03-2024T22:39:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageButton'
+
+01-03-2024T22:39:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.TextView - COLLECTIONS"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - COLLECTIONS'
+
+01-03-2024T22:39:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - COLLECTIONS'
+
+01-03-2024T22:39:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.TextView - Sandals"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - Sandals'
+
+01-03-2024T22:39:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - Sandals'
+
+01-03-2024T22:39:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.TextView - CasualSandals"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - CasualSandals'
+
+01-03-2024T22:39:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.TextView - CasualSandals'
+
+01-03-2024T22:39:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageView'
+
+01-03-2024T22:39:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageView'
+
+01-03-2024T22:39:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.Button - Add to Bag"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.Button - Add to Bag'
+
+01-03-2024T22:39:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:39:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.Button - Add to Bag'
+
+01-03-2024T22:39:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageButton (1)'
+
+01-03-2024T22:39:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:40:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageButton (1)'
+
+01-03-2024T22:40:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Testing Brodo/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageView (1)'
+
+01-03-2024T22:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-03-2024T22:40:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Testing Brodo/android.widget.ImageView (1)'
+
+01-03-2024T22:40:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+01-03-2024T22:40:07 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-03-2024T22:37:52 - [TEST_SUITE][PASSED] - Mobile Brodo Test Suites: Test Cases/Mobile Testing/TC01_Mobile Testing Brodo App]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
